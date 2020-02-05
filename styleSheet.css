@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+    font-size: 3em; 
+    color: blue; /*makes text blue*/
+}
+body {
+    background-color: rgb(19, 101, 179);
+    margin: 0em;
+}
+
+header {
+    border-style: solid none none none;
+    background-color: rgb(123, 423, 200);
+    block-size: 8em;
+}
+
+/* styling for annoying nav bar*/
+
+
+nav ul {
+    list-style-type: none; /* Removes Bullets*/
+    margin: 0; /*setting these to zero removes default browser stuff*/
+    padding: 0;
+    display: inline; /*displays entire list on one horizontal line*/
+    text-align:center;
+
+}
+
+nav li {
+
+    float: left; /* block elements slide next to eachother on the left*/
+    background-color: grey;
+  }
+  
+ nav li a {
+    display: block; /*puts text in an entire block, meaning I can change the properties of a whole area, not just this text*/
+    padding: 1em 2em; /* makes blocks bigger*/
+    text-align: center;
+    text-decoration: none;
+
+  }
+  nav li a:hover {
+    background-color: rgb(123,434,324);
+  }
+
+ nav li .current {
+     background-color: rgb(110, 75, 236);
+ }
+
+ /*styling for daily schedule box*/
+
+ .DailySchedule {
+    margin-top: 7em; /*separates box and image and navbar*/
+    margin-left: 1em;
+    background-color: cornflowerblue;
+    height: 50em;
+    width: 25em;
+    border-radius: 2em;
+ }
+
+
+ .DailySchedule ul {
+    list-style: none;
+ }
+.DailySchedule li {
+    color: yellow;
+}
+
+.DailySchedule li a {
+    text-decoration: none;
+    color: rgb(65, 21, 189);
+
+.CalendarPicture {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    width: 300px;
+    height: 450px;
+
+}
+
+.ThisWebsite {
+    text-align: center;
+    margin-top: 4em;
+    background-color: crimson;
+    height: 20;
+    width: 20;
+}
+
+
