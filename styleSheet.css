@@ -14,6 +14,31 @@ header {
     block-size: 8em;
 }
 
+ /*styling This site div*/
+ .ThisSite {
+    margin-top: 7em; /*separates and navbar*/
+    margin-left: 1em;
+    background-color: cornflowerblue;
+    height: 10em;
+    width: 35em;
+    border-radius: 2em;
+}
+
+.ThisSite ul {
+    list-style: none;
+ }
+.ThisSite li {
+    color: yellow;
+}
+
+.ThisSite li a {
+    text-decoration: none;
+    color: rgb(65, 21, 189);
+}
+.ThisSite h3 {
+    text-align: center;
+    color: darkviolet;
+}
 /* styling for annoying nav bar*/
 
 
@@ -45,6 +70,7 @@ nav li {
  nav li .current {
      background-color: rgb(110, 75, 236);
  }
+
 
  /*styling for daily schedule box*/
 
@@ -78,21 +104,4 @@ nav li {
 
 }
 
-.Flexcontainer1 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15em;
-}
-.Flexcontainer1 .box1 {
-    border: solid;
-    border-color: crimson;
-    background-color: cornflowerblue;
-    border: 110px;
-    padding: 10px;
-}
-.box1 {
-    flex:1;
-}
-.box2 {
-    flex:1;
-}
+
