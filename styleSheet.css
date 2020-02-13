@@ -39,6 +39,31 @@ header {
     text-align: center;
     color: darkviolet;
 }
+ /*styling for CSSpractice Div*/
+ .CSSPractice {
+    margin-top: 7em; /*separates and navbar*/
+    margin-left: 1em;
+    background-color: cornflowerblue;
+    height: 12em;
+    width: 35em;
+    border-radius: 2em;
+}
+
+.CSSPractice ul {
+    list-style: none;
+ }
+.CSSPractice li {
+    color: yellow;
+}
+
+.CSSPractice li a {
+    text-decoration: none;
+    color: rgb(65, 21, 189);
+}
+.CSSPractice h3 {
+    text-align: center;
+    color: darkviolet;
+}
 /* styling for annoying nav bar*/
 
 
