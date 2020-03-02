@@ -64,6 +64,32 @@ header {
     text-align: center;
     color: darkviolet;
 }
+
+ /*styling for JSCourse Div*/
+ .JSCourse {
+    margin-top: 7em; /*separates and navbar*/
+    margin-left: 1em;
+    background-color: cornflowerblue;
+    height: 12em;
+    width: 35em;
+    border-radius: 2em;
+}
+
+.JSCourse ul {
+    list-style: none;
+ }
+.JSCourse li {
+    color: yellow;
+}
+
+.JSCourse li a {
+    text-decoration: none;
+    color: rgb(65, 21, 189);
+}
+.JSCourse h3 {
+    text-align: center;
+    color: darkviolet;
+}
 /* styling for annoying nav bar*/
 
 
